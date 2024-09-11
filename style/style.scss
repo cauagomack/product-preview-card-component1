@@ -17,7 +17,7 @@ body {
 
 }
 
-.card {
+.crd {
   background-color: $white-color;
   display: flex;
   width: 600px;
@@ -28,7 +28,7 @@ body {
   margin-left: 420px;
   margin-top: 175px;
 
-  .card-image {
+  .crd-img {
     width: 300px;
     height: 450px;
     img {
@@ -38,7 +38,7 @@ body {
     }
   }
 
-  .card-content {
+  .crd-cnt {
     margin-left: 32px;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ body {
     
     width: 300px;
 
-    .category {
+    .cty {
       text-transform: uppercase;
       color: $secondary-color;
       letter-spacing: 5.5px;
@@ -57,34 +57,32 @@ body {
     }
 
     h1 {
-      font-family: $font-family-secondary;
+      font-family: 'Fraunces', serif;
       font-weight: 1000;
       color: $text-color-dark;
-      font-size: 20px;
-      max-width: 300px;
-      padding-top: 22px;
+      font-size: 30px;
+      max-width: 200px;
+      padding-top: 24px;
       margin: 0;
       column-gap:1px;
-      line-height: 30px;
-
-      
+      line-height: 32px;      
     }
 
-    .description {
+    .dscpt {
       color: $secondary-color;
-      font-size: 14px;
+      font-size: 15.5px;
       margin-bottom: 20px;
       padding-top: 16px;
       line-height: 23px;
       word-spacing: px;
     }
 
-    .price {
+    .prc {
       display: flex;
       align-items: center;
      
 
-      .current-price {
+      .crt-prc {
         font-family: $font-family-secondary;
         font-weight: 700;
         font-size: 24px;
@@ -93,14 +91,14 @@ body {
        
       }
 
-      .original-price {
+      .original-prc {
         text-decoration: line-through;
         color: $secondary-color;
         font-size: 14px;
       }
     }
 
-    .add-to-cart {
+    .add-to-crt {
       background-color: $primary-color;
       color: $white-color;
       border: none;

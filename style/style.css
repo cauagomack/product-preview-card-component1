@@ -44,17 +44,17 @@ body {
   font-family: "Fraunces", serif;
   font-weight: 1000;
   color: hsl(212, 21%, 14%);
-  font-size: 20px;
+  font-size: 30px;
   max-width: 300px;
   padding-top: 22px;
   margin: 0;
   -moz-column-gap: 1px;
        column-gap: 1px;
-  line-height: 30px;
+  line-height: 10px;
 }
 .card .card-content .description {
   color: hsl(228, 12%, 48%);
-  font-size: 14px;
+  font-size: 15.5px;
   margin-bottom: 20px;
   padding-top: 16px;
   line-height: 23px;
