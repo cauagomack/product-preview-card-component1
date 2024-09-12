@@ -5,7 +5,7 @@ body {
   height: 100vh;
 }
 
-.card {
+.crd {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   width: 600px;
@@ -16,23 +16,23 @@ body {
   margin-left: 420px;
   margin-top: 175px;
 }
-.card .card-image {
+.crd .crd-img {
   width: 300px;
   height: 450px;
 }
-.card .card-image img {
+.crd .crd-img img {
   width: 300px;
   height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.card .card-content {
+.crd .crd-cnt {
   margin-left: 32px;
   display: flex;
   flex-direction: column;
   width: 300px;
 }
-.card .card-content .category {
+.crd .crd-cnt .cty {
   text-transform: uppercase;
   color: hsl(228, 12%, 48%);
   letter-spacing: 5.5px;
@@ -40,19 +40,19 @@ body {
   padding-top: 32.5px;
   filter: blur(0.5px);
 }
-.card .card-content h1 {
+.crd .crd-cnt h1 {
   font-family: "Fraunces", serif;
   font-weight: 1000;
   color: hsl(212, 21%, 14%);
   font-size: 30px;
-  max-width: 300px;
-  padding-top: 22px;
+  max-width: 200px;
+  padding-top: 24px;
   margin: 0;
   -moz-column-gap: 1px;
        column-gap: 1px;
-  line-height: 10px;
+  line-height: 32px;
 }
-.card .card-content .description {
+.crd .crd-cnt .dscpt {
   color: hsl(228, 12%, 48%);
   font-size: 15.5px;
   margin-bottom: 20px;
@@ -60,23 +60,23 @@ body {
   line-height: 23px;
   word-spacing: px;
 }
-.card .card-content .price {
+.crd .crd-cnt .prc {
   display: flex;
   align-items: center;
 }
-.card .card-content .price .current-price {
+.crd .crd-cnt .prc .crt-prc {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 24px;
   color: hsl(158, 36%, 37%);
   margin-right: 15px;
 }
-.card .card-content .price .original-price {
+.crd .crd-cnt .prc .original-prc {
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
   font-size: 14px;
 }
-.card .card-content .add-to-cart {
+.crd .crd-cnt .add-to-crt {
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   border: none;
@@ -89,6 +89,6 @@ body {
   margin-top: 60px;
   width: 235px;
 }
-.card .card-content .add-to-cart:hover {
+.crd .crd-cnt .add-to-crt:hover {
   background-color: #2c5e4b;
 }/*# sourceMappingURL=style.css.map */
